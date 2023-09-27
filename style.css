@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+#green{
+    color: #00FF00;
+    margin-left: 10px;
+}
+
+#red{
+    color: #FF0000;
+     margin-left: 10px;
+}
+
+#budget-remaining, #budget-spent, #budget-amnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  /* Stack children vertically */
+}
+
+#green, #red {
+    margin-left: 10px; /* Reset margin-left */
+    margin-top: 5px; /* Or any value you prefer, just to have a little space between the label and the amount */
+}
+
+/* If you want to center the button and input horizontally as well */
+#budget-amnt-btn, #monthly-budget {
+    display: block;
+    margin: 18px auto;
+
+}
+
+#monthly-budget{
+    margin-left: 10px
+}
+
+
+
+
+
+
+/* Hide the spinner */
+.no-spinner::-webkit-inner-spin-button,
+.no-spinner::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+#budget-amnt-btn{
+    margin-top: 18px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.list-item-text {
+  color: grey;
+  font-weight: 400; /* Normal font-weight */
+}
+
+
+
+/* Shortens length of the expense intake forms so that they do not take up the full width of the page. also centers text and text fields.  */
+
+#expense-amnt{
+    width: 40%;
+
+
+}
+
+#expense-name{
+    width: 40%;
+}
+
+
+/* centers both expense intake forms */
+
+#expense-amnt, #expense-name{
+    margin: 0 auto;
+}
+
+/* centers the expense intake button */
+
+
